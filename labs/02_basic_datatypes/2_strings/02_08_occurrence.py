@@ -7,3 +7,9 @@ Letter input: o
 Result: 4
 
 '''
+text = input("Enter your text here: ")
+letter = input("Enter the letter to find: ")
+
+index = text.index(letter)
+
+print(index)
