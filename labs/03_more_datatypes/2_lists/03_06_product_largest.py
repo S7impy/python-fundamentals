@@ -9,3 +9,9 @@ that we haven't looked at yet. See if you can figure it out, otherwise
 come back to this task after you have learned about loops)
 
 '''
+numbers = []
+while len(numbers) < 10:
+    num = input("Enter a number: ")
+    numbers.append(num)
+print(numbers)
+print("Largest number is: ", max(numbers))
